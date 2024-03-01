@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--อันนี้คือคอมเม้น-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE-edge">
+    <link rel="stylesheet" href="style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale-scale=1.0">
+    <title>Pumpsocks</title>
+</head>
+<body>
+  <section class="menu">
+    <div class="nav">
+        <div class="logo"><h1>Pump<b>socks</b></h1></div>
+        <ul>
+          <li class="active"><a href="#">หน้าแรก</a></li>
+          <li><a href="#">เกี่ยวกับ</a></li>
+          <li><a href="#">สินค้าของเรา</a></li>
+          <li><a href="#">ติดต่อเรา</a></li>
+        </ul>
+        <div>
+          <input class="singin" type="submit" value="Sign In" name="singin">
+          <input class="signup" type="submit" value="Sign Up" name="singup">
+        </div>
+      </div>
+        <section class="grid">
+            <img src="./Pig/1111.jpg" alt="Product 1 Image" width="1750" height="800" />
+            <div class="content">
+            <div class="content-left">
+                <div class="info">
+                    <h2>  อาณาจักรถุงเท้า <br>ขายส่งถุงเท้า ราคาถูก</h2> <!--<br> คือการเว้นบรรทัด-->
+                    <p> โรงงานผลิตถุงเท้าแฟชั่น รับผลิตถุงเท้าเด็ก-วัยรุ่น ผลิตถุงเท้านักเรียน ผลิตถุงเท้าทำงาน ผลิตถุงเท้ากีฬา ดีไซน์ลวดลายสีสันสวยงาม ทอด้วยด้ายคุณภาพดี <br>
+                        มีแบบถุงเท้าให้เลือกมากที่สุดขายส่งถุงเท้าทุกแบบในราคาถูก <br>
+                        ภายใต้แบรนด์ TaRo socks, eSocks, Tiger socks, Play socks, Red Dragon, Pump socks<br></p>
+                    <h5> สนใจสั่งผลิตถุงเท้า ติดต่อ : 08-1946-1795, 08-2034-6111</h5>
+                </div>
+                <button>ดูสินค้าเพิ่มเติมคลิ๊ก</button>
+            </div>
+            <div class="content-right">
+            <img src="./Pig/socks.png" alt=""> <!--รูปภาพตรง Content IMAGE-->
+        </div>
+        </section>
+    <div id="products">
+<div class="product">
+    <img src="./Pig/1.jpg" alt="Product 1 Image" width="200" height="200" />
+    <h3>ถุงเท้านักเรียน 1 - $10</h3>
+    <button class="add-to-cart" data-product-id="1" data-price="10">Add to Cart</button>
+</div>
+<div class="product">
+    <img
+          src="./Pig/2.jpg"
+          alt="Product 2 Image"
+          width="200"
+          height="200"
+        />
+    <h3>ถุงเท้ากีฬา 2 - $20</h3>
+    <button class="add-to-cart" data-product-id="2" data-price="20">Add to Cart</button>
+</div>
+<div class="product">
+    <img
+          src="./Pig/3.jpg"
+          alt="Product 2 Image"
+          width="200"
+          height="200"
+        />
+    <h3>ถุงเท้าจากจีน 3 - $30</h3>
+    <button class="add-to-cart" data-product-id="3" data-price="30">Add to Cart</button>
+</div>
+<div class="product">
+        <img
+          src="./Pig/4.jpg"
+          alt="Product 4 Image"
+          width="200"
+          height="200"
+        />
+        <h3>ถุงเท้าเด็ก 4 - $40</h3>
+        <button class="add-to-cart" data-product-id="4" data-price="40">
+          Add to Cart
+        </button>
+      </div>
+<div class="product">
+        <img src="./Pig/5.jpg" alt="Product 5 Image" width="200" height="200" />
+        <h3>ถุงเท้าจากจีน 5 - $50</h3>
+        <button class="add-to-cart" data-product-id="5" data-price="50">
+          Add to Cart
+        </button>
+      </div>
+      <div class="product">
+        <img src="./Pig/6.jpg" alt="Product 6 Image" width="200" height="200" />
+        <h3>ราคาส่ง $100</h3>
+        <button class="add-to-cart" data-product-id="6" data-price="100">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+    <script src="cart.js"></script>
+
+    <h2>Cart</h2>
+    <div id="cart">
+        <p>No items in cart.</p>
+    </div>
+
+</body>
+</html>
